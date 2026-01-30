@@ -2898,6 +2898,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Oscillator:GTXO-14T"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GTXO-14T"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_DIP-14"
+				(at 11.43 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.golledge.com/pdf/products/tcxos/gtxo14.pdf"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Crystal Clock Oscillator, DIP14-style metal package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*DIP*14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GTXO-14T_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635) (xy -0.635 0.635) (xy -0.635 -0.635) (xy 0 -0.635)
+						(xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GTXO-14T_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Oscillator:TFT660"
 			(pin_names
 				(offset 0.254)
@@ -3333,6 +3505,16 @@
 		)
 		(uuid beba7b4c-67fa-46da-bdff-dcd083f585d0)
 	)
+	(text "Clock should be 20MHz"
+		(exclude_from_sim no)
+		(at 46.228 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16ea1b2c-27ae-4344-ad1c-2c7739e24424")
+	)
 	(text "Vertical counter reset, blank and sync"
 		(exclude_from_sim no)
 		(at 141.732 190.754 0)
@@ -3446,6 +3628,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4bdf1fd-a38a-4fd7-a25f-100de0a763e0")
+	)
+	(junction
+		(at 39.37 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7a284fe-b867-4e2f-9316-9421a8560d74")
 	)
 	(junction
 		(at 107.95 177.8)
@@ -3699,6 +3887,16 @@
 			(type default)
 		)
 		(uuid "10c7195e-735f-4beb-b355-bac4122b7234")
+	)
+	(wire
+		(pts
+			(xy 22.86 30.48) (xy 24.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1652f0e2-a5d4-4472-8077-9e25e2a1508a")
 	)
 	(wire
 		(pts
@@ -4579,6 +4777,16 @@
 			(type default)
 		)
 		(uuid "e6d85434-8d43-4604-96e6-42d9fca26e82")
+	)
+	(wire
+		(pts
+			(xy 39.37 30.48) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81f8eda-5e4d-457d-85eb-383081812650")
 	)
 	(wire
 		(pts
@@ -5556,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 60.9517 132.08 0)
 			(effects
 				(font
@@ -5735,7 +5943,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS20"
+		(property "Value" "74HCT20"
 			(at 38.0903 96.52 0)
 			(effects
 				(font
@@ -5842,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS20"
+		(property "Value" "74HCT20"
 			(at 38.0903 111.76 0)
 			(effects
 				(font
@@ -6070,7 +6278,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 140.9617 135.89 0)
 			(effects
 				(font
@@ -6183,7 +6391,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 60.9517 93.98 0)
 			(effects
 				(font
@@ -6412,6 +6620,72 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 31.75 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c803171-e666-4d36-a9cf-8e734aeaba18")
+		(property "Reference" "#PWR070"
+			(at 31.75 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c12a0b8b-87f7-413b-849d-7fa47813b19b")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0/73ccefeb-bfda-4939-90b5-cbb4685b37a7"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 72.39 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6598,7 +6872,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 140.9617 161.29 0)
 			(effects
 				(font
@@ -6777,7 +7051,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 60.9517 146.05 0)
 			(effects
 				(font
@@ -6994,7 +7268,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 139.6917 90.17 0)
 			(effects
 				(font
@@ -7406,6 +7680,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82dd5d2d-5f90-407e-b8e9-9239d20ac4b3")
+		(property "Reference" "#PWR068"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ac754ad-c0c8-4ba5-a9a8-3175bb932476")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0/73ccefeb-bfda-4939-90b5-cbb4685b37a7"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 67.31 0)
 		(unit 1)
@@ -7532,6 +7872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" "20MHz"
+			(at 31.75 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "974b1314-54af-4136-87ef-6a4d46318bf5")
 		)
@@ -7571,7 +7920,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 139.6917 110.49 0)
 			(effects
 				(font
@@ -7684,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 60.9517 109.22 0)
 			(effects
 				(font
@@ -8005,6 +8354,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Oscillator:GTXO-14T")
+		(at 31.75 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d95e0664-295c-4c75-9ded-38b20fd7c3bc")
+		(property "Reference" "Y2"
+			(at 37.084 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TFT660"
+			(at 37.084 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_DIP-14"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.golledge.com/pdf/products/tcxos/gtxo14.pdf"
+			(at 29.21 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Crystal Clock Oscillator, DIP14-style metal package"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" "20MHz"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "90f04557-e079-4e2b-b9d0-0c0ca56b5531")
+		)
+		(pin "1"
+			(uuid "5deb6b10-1ac7-4ce1-a574-3a7485ad4923")
+		)
+		(pin "8"
+			(uuid "dceab3b7-0610-4d2b-93e5-2b7a1b5029a0")
+		)
+		(pin "7"
+			(uuid "a44d5a4a-6d7e-4205-b30e-92bc64c6d8d2")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0/73ccefeb-bfda-4939-90b5-cbb4685b37a7"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 31.75 50.8 0)
 		(unit 1)
@@ -8088,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 38.0917 129.54 0)
 			(effects
 				(font
@@ -8184,6 +8624,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea18eb4c-220d-4bea-aa8c-d5108ca7cf59")
+		(property "Reference" "#PWR071"
+			(at 31.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668618f5-b10b-444b-9f35-57f7abe974b7")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0/73ccefeb-bfda-4939-90b5-cbb4685b37a7"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS00")
 		(at 138.43 182.88 0)
 		(unit 3)
@@ -8201,7 +8707,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 138.4217 176.53 0)
 			(effects
 				(font
@@ -8380,7 +8886,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS00"
+		(property "Value" "74HCT00"
 			(at 76.1917 121.92 0)
 			(effects
 				(font
@@ -8625,7 +9131,7 @@
 				)
 			)
 		)
-		(property "Value" "74LS20"
+		(property "Value" "74HCT20"
 			(at 115.5603 92.71 0)
 			(effects
 				(font
