@@ -1,0 +1,27 @@
+%SIGNAL
+PIN   9 =  RnW 
+PIN   2 =  dev0 
+PIN   3 =  dev1 
+PIN   4 =  dev2 
+PIN   5 =  dev3 
+PIN   6 =  dev4 
+PIN  18 =  nCS 
+PIN   8 =  nE 
+PIN  19 =  nOE 
+PIN   7 =  nQ 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+nCS =>
+    dev3
+  # nQ
+
+nOE =>
+    dev3
+  # !RnW
+  # nQ
+
+%END

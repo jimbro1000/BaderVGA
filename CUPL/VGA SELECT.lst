@@ -1,0 +1,40 @@
+LISTING FOR LOGIC DESCRIPTION FILE: VGA SELECT.pld                   Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# 60008009
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Jan 14 08:56:54 2026
+
+  1:Name     VGA select ;
+  2:PartNo   00 ;
+  3:Date     13/01/2026 ;
+  4:Revision 01 ;
+  5:Designer Julian ;
+  6:Company  . ;
+  7:Assembly None ;
+  8:Location  ;
+  9:Device   g16v8a ;
+ 10:
+ 11:/* *************** INPUT PINS *********************/
+ 12:PIN 2   = dev0                    ; /*                                 */ 
+ 13:PIN 3   = dev1                    ; /*                                 */ 
+ 14:PIN 4   = dev2                    ; /*                                 */ 
+ 15:PIN 5   = dev3                    ; /*                                 */ 
+ 16:PIN 6   = dev4                    ; /*                                 */ 
+ 17:PIN 7   = nQ                      ; /*                                 */ 
+ 18:PIN 8   = nE                      ; /*                                 */ 
+ 19:PIN 9   = RnW                     ; /*                                 */ 
+ 20:
+ 21:/* *************** OUTPUT PINS *********************/
+ 22:PIN 18  = nCS                     ; /*                                 */ 
+ 23:PIN 19  = nOE                     ; /*                                 */ 
+ 24:
+ 25:nCS = dev3 # nQ;
+ 26:nOE = dev3 # !RnW # nQ;
+ 27:
+
+
+
+Jedec Fuse Checksum       (1ca0)
+Jedec Transmit Checksum   (923e)
+[0007cc] Please note: invalid download format:  ascii-hex

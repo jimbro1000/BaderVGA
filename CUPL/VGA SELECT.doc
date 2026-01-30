@@ -1,0 +1,56 @@
+
+*******************************************************************************
+                                      VGA
+*******************************************************************************
+
+CUPL(WM)        5.0a Serial# 60008009
+Device          g16v8as  Library DLIB-h-40-2
+Created         Wed Jan 14 08:56:54 2026
+Name            VGA select 
+Partno          00 
+Revision        01 
+Date            13/01/2026 
+Designer        Julian 
+Company         . 
+Assembly        None 
+Location        
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+nCS =>
+    dev3
+  # nQ
+
+nOE =>
+    dev3
+  # !RnW
+  # nQ
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    RnW                         9        V        -       -       -     
+    dev0                        2        V        -       -       -     
+    dev1                        3        V        -       -       -     
+    dev2                        4        V        -       -       -     
+    dev3                        5        V        -       -       -     
+    dev4                        6        V        -       -       -     
+    nCS                         18       V        2       8       1     
+    nE                          8        V        -       -       -     
+    nOE                         19       V        3       8       1     
+    nQ                          7        V        -       -       -     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

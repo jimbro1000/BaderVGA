@@ -1,0 +1,26 @@
+Name     VGA select ;
+PartNo   00 ;
+Date     13/01/2026 ;
+Revision 01 ;
+Designer Julian ;
+Company  . ;
+Assembly None ;
+Location  ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN 2   = dev0                    ; /*                                 */ 
+PIN 3   = dev1                    ; /*                                 */ 
+PIN 4   = dev2                    ; /*                                 */ 
+PIN 5   = dev3                    ; /*                                 */ 
+PIN 6   = dev4                    ; /*                                 */ 
+PIN 7   = nQ                      ; /*                                 */ 
+PIN 8   = nE                      ; /*                                 */ 
+PIN 9   = RnW                     ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 18  = nCS                     ; /*                                 */ 
+PIN 19  = nOE                     ; /*                                 */ 
+
+nCS = dev3 # nQ;
+nOE = dev3 # !RnW # nQ;
