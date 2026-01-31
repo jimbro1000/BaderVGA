@@ -4996,6 +4996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1815c5c9-c388-499a-a086-ec08e9fd332f")
 		)
@@ -5355,6 +5364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 40.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c2bc172-d862-4215-b9bf-04dc87930f37")
 		)
@@ -5507,6 +5525,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25d97465-3c06-4f76-b84f-3f60ef3f72da")
 		)
@@ -5589,6 +5616,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 78.74 59.69 0)
 			(effects
 				(font
@@ -5694,6 +5730,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "150d7778-dcf2-4700-98ae-e9ef10d0733d")
 		)
@@ -5791,6 +5836,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7f1eb165-9327-41d6-a9a1-ba2cb1559ff8")
 		)
@@ -5880,6 +5934,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 116.84 31.75 0)
 			(effects
 				(font
@@ -6051,6 +6114,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 78.74 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "91d7a336-01b5-4599-9d50-4c3e8f1e0a91")
 		)
@@ -6140,6 +6212,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 161.29 100.33 0)
 			(effects
 				(font
@@ -6269,6 +6350,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c59b4898-0519-44c3-b4f3-096fd70372cf")
 		)
@@ -6346,6 +6436,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 161.29 44.45 0)
 			(effects
 				(font
@@ -6474,6 +6573,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e87ea1a2-bdca-4625-800d-a8e28fc73d06")
 		)
@@ -6571,6 +6679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "c847ad7c-6428-42cc-bc4a-33d98766dd75")
 		)
@@ -6659,6 +6776,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 116.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 116.84 114.3 0)
 			(effects
 				(font

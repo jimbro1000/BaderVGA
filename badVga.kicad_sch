@@ -7058,22 +7058,10 @@
 		(uuid "0063a5ca-1f82-4840-9f32-c805d1df1315")
 	)
 	(junction
-		(at 271.78 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01ba254d-3c35-4be7-a753-7def28d0d791")
-	)
-	(junction
 		(at 217.17 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12b67e37-e2c5-4c5b-a090-477e3f4365d0")
-	)
-	(junction
-		(at 271.78 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b2473f2-6a35-45fd-b11a-873069dd0af1")
 	)
 	(junction
 		(at 267.97 213.36)
@@ -7086,12 +7074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3369065f-0733-4c9a-8eb5-d1f42958995f")
-	)
-	(junction
-		(at 271.78 257.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "346981b9-d38e-48c7-92ec-8d819fbe9adb")
 	)
 	(junction
 		(at 257.81 218.44)
@@ -7172,6 +7154,12 @@
 		(uuid "8430756f-b41a-47b9-b201-4e997a76dc89")
 	)
 	(junction
+		(at 298.45 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8efcef7a-f759-41d7-a41a-c0447b91e34d")
+	)
+	(junction
 		(at 182.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7230,6 +7218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d618369a-9762-406c-a1c6-a8a30e156f2d")
+	)
+	(junction
+		(at 308.61 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e08f806e-34ab-494e-9147-0bb66f9b3fb8")
 	)
 	(junction
 		(at 278.13 213.36)
@@ -7298,10 +7292,6 @@
 	(no_connect
 		(at 363.22 116.84)
 		(uuid "8840e030-cbe8-49ac-8ed2-c25aef43d294")
-	)
-	(no_connect
-		(at 287.02 259.08)
-		(uuid "88c7148d-e7e4-4453-946a-dcf000ea7717")
 	)
 	(no_connect
 		(at 330.2 53.34)
@@ -9201,6 +9191,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 218.44) (xy 298.45 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bbd7624-97bf-455c-bc72-46150d7b9830")
+	)
+	(wire
+		(pts
 			(xy 45.72 139.7) (xy 50.8 139.7)
 		)
 		(stroke
@@ -9208,16 +9208,6 @@
 			(type default)
 		)
 		(uuid "709293b0-9446-4acd-995e-5773e86c44b2")
-	)
-	(wire
-		(pts
-			(xy 271.78 260.35) (xy 271.78 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a74481-4958-4b4d-be25-8488d188fe36")
 	)
 	(bus
 		(pts
@@ -9378,6 +9368,16 @@
 			(type default)
 		)
 		(uuid "7dc88128-03db-4817-9229-09a5abc3a23f")
+	)
+	(wire
+		(pts
+			(xy 308.61 213.36) (xy 298.45 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5eaf21-aea9-45e1-a83f-242b85940ca6")
 	)
 	(wire
 		(pts
@@ -10061,16 +10061,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 255.27) (xy 271.78 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c582e531-cad1-419d-a523-27660babafb3")
-	)
-	(wire
-		(pts
 			(xy 208.28 59.69) (xy 213.36 59.69)
 		)
 		(stroke
@@ -10458,16 +10448,6 @@
 			(type default)
 		)
 		(uuid "f2e10273-6519-42c6-b2df-35dd46546645")
-	)
-	(wire
-		(pts
-			(xy 271.78 257.81) (xy 271.78 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2fa8e71-315f-42eb-a12d-c838b5fc75de")
 	)
 	(bus
 		(pts
@@ -12675,6 +12655,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 355.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7b6c536-fd0c-47e5-bb70-382239de2fd0")
 		)
@@ -12754,6 +12743,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 237.49 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "526773ca-926b-4d50-bcaa-51f6076597e7")
 		)
@@ -12825,6 +12823,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 73.66 106.68 0)
 			(effects
 				(font
@@ -13223,7 +13230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:CONN_AHDF15A-KG-TAXB_ASM"
+		(property "Footprint" "Library:AMPHENOL_ICD15S13E4GX00LF"
 			(at 171.45 171.45 0)
 			(effects
 				(font
@@ -13250,7 +13257,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "123-A-HDF15A-KG-TAXB-ND"
+		(property "DigiKey" "609-5181-ND"
 			(at 195.58 181.61 0)
 			(effects
 				(font
@@ -13260,6 +13267,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 195.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 195.58 181.61 0)
 			(effects
 				(font
@@ -13386,6 +13402,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 298.45 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "625f1cd6-dce1-4316-bc7c-01a27b58e63c")
 		)
@@ -13457,6 +13482,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 320.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 320.04 66.04 0)
 			(effects
 				(font
@@ -13631,6 +13665,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 217.17 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a899b61b-a9d2-4551-bdba-2629b37c4b5f")
 		)
@@ -13768,6 +13811,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 350.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 350.52 179.07 0)
 			(effects
 				(font
@@ -13922,6 +13974,15 @@
 			)
 		)
 		(property "LCSC" "C547583"
+			(at 251.46 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 251.46 260.35 0)
 			(effects
 				(font
@@ -14367,6 +14428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "140c01cd-22b8-45ef-9585-640d9486114b")
 		)
@@ -14492,6 +14562,15 @@
 			)
 		)
 		(property "LCSC" "C547583"
+			(at 124.46 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 124.46 260.35 0)
 			(effects
 				(font
@@ -14661,7 +14740,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C609793"
+			(at 320.04 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 320.04 201.93 0)
 			(effects
 				(font
@@ -14843,6 +14931,15 @@
 			)
 		)
 		(property "LCSC" "C25804"
+			(at 364.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 364.49 50.8 0)
 			(effects
 				(font
@@ -15054,6 +15151,15 @@
 			)
 		)
 		(property "LCSC" "C609793"
+			(at 190.5 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 190.5 260.35 0)
 			(effects
 				(font
@@ -15309,6 +15415,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 359.41 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "662caf4f-fc41-451c-a9a7-ddd7daa49ace")
 		)
@@ -15512,6 +15627,15 @@
 			)
 		)
 		(property "LCSC" "C1710"
+			(at 267.97 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 267.97 215.9 0)
 			(effects
 				(font
@@ -15864,6 +15988,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 257.81 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1200a04b-7a09-4c27-86ae-3a6ff9be7877")
 		)
@@ -16076,6 +16209,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 168.91 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8d8df67b-8561-42dd-b509-95fe53a46262")
 		)
@@ -16172,6 +16314,15 @@
 			)
 		)
 		(property "LCSC" "C609793"
+			(at 289.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 289.56 93.98 0)
 			(effects
 				(font
@@ -16429,6 +16580,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 308.61 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ed8b92c-0df5-4bb7-847d-a34cb7ec1a3e")
+		(property "Reference" "C10"
+			(at 311.15 214.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 311.15 217.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 308.61 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 308.61 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1710"
+			(at 308.61 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 308.61 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "453ca026-13b7-4b9c-bc14-d53ec613e4b3")
+		)
+		(pin "1"
+			(uuid "4342b304-2147-49c9-b4e4-d1b5182ab138")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC245")
 		(at 195.58 54.61 0)
 		(unit 1)
@@ -16484,6 +16723,15 @@
 			)
 		)
 		(property "LCSC" "C2675537"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 195.58 54.61 0)
 			(effects
 				(font
@@ -16617,6 +16865,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 73.66 184.15 0)
 			(effects
 				(font
@@ -16824,6 +17081,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 336.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "024e517d-55ce-4122-a22f-6ada8f541a71")
 		)
@@ -16835,113 +17101,6 @@
 				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
 					(reference "R5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS20")
-		(at 279.4 259.08 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6e3955-7b4f-4abe-98f7-d6c0c323b2e3")
-		(property "Reference" "U13"
-			(at 279.3903 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS20"
-			(at 279.3903 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 279.4 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS20"
-			(at 279.4 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual 4-input NAND"
-			(at 279.4 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C556253"
-			(at 279.4 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "ded9807e-d868-46ba-b8f4-3b267b4bc553")
-		)
-		(pin "1"
-			(uuid "ad6322cb-fa66-4d3b-8451-782ce6e6e648")
-		)
-		(pin "6"
-			(uuid "a19269cd-4467-49c4-b0b6-3998a3b3cb7b")
-		)
-		(pin "4"
-			(uuid "801f4e85-fa21-4201-ab66-d0e830dc7a9e")
-		)
-		(pin "5"
-			(uuid "cbd048b7-d35c-42c4-b647-c1056d819b69")
-		)
-		(pin "9"
-			(uuid "24adaeaf-d357-46c2-907a-5ac0cb8bf05a")
-		)
-		(pin "2"
-			(uuid "edd4d63a-9bc0-42a5-9152-a4d76a6fff11")
-		)
-		(pin "10"
-			(uuid "d5ee1852-11b7-4975-b0f3-d56fb03da434")
-		)
-		(pin "12"
-			(uuid "e02f61fd-21cc-460b-99d8-44ee43091e92")
-		)
-		(pin "7"
-			(uuid "bf11333b-8036-4a07-a367-563c0e30b483")
-		)
-		(pin "14"
-			(uuid "aff0a1c3-ea3f-487c-98b4-5e4562879af4")
-		)
-		(pin "8"
-			(uuid "f639de1d-9d4a-461c-8500-e5447c3ad87c")
-		)
-		(instances
-			(project "badVga"
-				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
-					(reference "U13")
-					(unit 2)
 				)
 			)
 		)
@@ -17002,6 +17161,15 @@
 			)
 		)
 		(property "LCSC" "C609793"
+			(at 82.55 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 82.55 261.62 0)
 			(effects
 				(font
@@ -17522,6 +17690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 247.65 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "37af3e71-4740-47e9-9724-bcb16c92c215")
 		)
@@ -17667,6 +17844,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 146.05 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5be61c3-1f41-45e9-bedc-ab182a9afdf4")
 		)
@@ -17705,72 +17891,6 @@
 				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
 					(reference "U15")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 271.78 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ddab4ac-dda4-4876-8247-fda842c1a8ed")
-		(property "Reference" "#PWR069"
-			(at 271.78 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "473a002d-4a3c-48ce-9ba6-4c681532c0da")
-		)
-		(instances
-			(project "badVga"
-				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
-					(reference "#PWR069")
-					(unit 1)
 				)
 			)
 		)
@@ -17971,6 +18091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 278.13 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5ebdb977-4d08-49c0-99df-7486fc4d38bb")
 		)
@@ -18050,6 +18179,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 288.29 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57f00602-f095-4e59-a46a-d0a22035a5d9")
 		)
@@ -18060,6 +18198,72 @@
 			(project "badVga"
 				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 271.78 247.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca57b38-070b-48dc-a1d7-ffdf8b20e05b")
+		(property "Reference" "#PWR068"
+			(at 271.78 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 271.78 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 271.78 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38a0dc4c-bf17-4a74-ade5-181ea6b16f79")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -18121,6 +18325,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 350.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 350.52 119.38 0)
 			(effects
 				(font
@@ -18398,6 +18611,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 271.78 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d59392-8781-484a-9d8a-ac22358d1ee8")
+		(property "Reference" "#PWR069"
+			(at 271.78 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96302aa8-353a-4d43-a459-f8104e50ea6a")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 124.46 247.65 0)
 		(unit 1)
@@ -18620,7 +18899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile"
 			(at 355.6 45.72 0)
 			(effects
 				(font
@@ -18648,6 +18927,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 355.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 355.6 45.72 0)
 			(effects
 				(font
@@ -18822,6 +19110,118 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS30")
+		(at 271.78 260.35 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc5e0b0d-d6bd-44e0-86cf-7cbdfa3b3b17")
+		(property "Reference" "U7"
+			(at 281.178 258.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS30"
+			(at 281.178 261.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 271.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS30"
+			(at 271.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-input NAND"
+			(at 271.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C547583"
+			(at 271.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
+			(at 271.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b3d9856a-e0c6-42b9-bf59-8f65d65c7482")
+		)
+		(pin "11"
+			(uuid "dbb6cdaa-2af4-4c16-a5d9-c49fc89d895d")
+		)
+		(pin "3"
+			(uuid "ae1d2eb0-86f4-4718-a073-effd05867cdd")
+		)
+		(pin "12"
+			(uuid "c9caae95-ecc0-4967-82d6-abf3cb7adffe")
+		)
+		(pin "2"
+			(uuid "136786d0-5e1e-489f-aa44-090d9fdfcfb8")
+		)
+		(pin "1"
+			(uuid "72b36669-81aa-40d9-9a77-07fabb17af4d")
+		)
+		(pin "5"
+			(uuid "54c448af-276e-43a3-9483-9376cabaa957")
+		)
+		(pin "6"
+			(uuid "b057abb6-c9b4-4a9f-9e8d-cfbff035d803")
+		)
+		(pin "8"
+			(uuid "2d1a0148-e525-4daf-ac10-a9ec7e8f7972")
+		)
+		(pin "14"
+			(uuid "3369b15f-676a-416f-a7bd-c8e1c0da0330")
+		)
+		(pin "7"
+			(uuid "c030ee34-a1d2-452d-8b66-ad28dc41616b")
+		)
+		(instances
+			(project "badVga"
+				(path "/f58d0f10-88c8-43af-b32a-80a5d02aa9b0"
+					(reference "U7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 67.31 0)
 		(unit 1)
@@ -18889,7 +19289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 298.45 218.44 0)
+		(at 308.61 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18898,7 +19298,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf635214-fc95-4998-bc71-6dcf518fff64")
 		(property "Reference" "#PWR062"
-			(at 298.45 224.79 0)
+			(at 308.61 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18907,7 +19307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.45 223.52 0)
+			(at 308.61 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18915,7 +19315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 218.44 0)
+			(at 308.61 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18924,7 +19324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 218.44 0)
+			(at 308.61 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18933,7 +19333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 298.45 218.44 0)
+			(at 308.61 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19141,6 +19541,15 @@
 			)
 		)
 		(property "LCSC" "C556253"
+			(at 102.87 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 102.87 261.62 0)
 			(effects
 				(font
@@ -19589,6 +19998,15 @@
 				(hide yes)
 			)
 		)
+		(property "Frequency" ""
+			(at 227.33 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e98e7287-38ce-46fa-9142-bc4a63b77340")
 		)
@@ -19726,6 +20144,15 @@
 			)
 		)
 		(property "LCSC" "C609793"
+			(at 232.41 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 232.41 260.35 0)
 			(effects
 				(font
@@ -20039,6 +20466,15 @@
 			)
 		)
 		(property "LCSC" "C556253"
+			(at 210.82 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Frequency" ""
 			(at 210.82 260.35 0)
 			(effects
 				(font
